@@ -1,0 +1,14 @@
+---
+ - name: demo
+   hosts: all
+   tasks:
+     - name: user creation
+       user:
+         name: "{{ item }}"
+         state: present
+       loop:
+         - ankit
+         - bhagyashree
+         - divya
+         - rupesh
+         - SAYALI
