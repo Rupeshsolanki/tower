@@ -1,6 +1,6 @@
 ---
  - name: demo
-   hosts: all
+   hosts: localhost
    become: true
    tasks:
      - name: user creation
