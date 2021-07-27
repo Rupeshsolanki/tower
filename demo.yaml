@@ -1,6 +1,7 @@
 ---
  - name: demo
    hosts: all
+   become: true
    tasks:
      - name: user creation
        yum:
