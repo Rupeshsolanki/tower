@@ -3,12 +3,6 @@
    hosts: all
    tasks:
      - name: user creation
-       user:
-         name: "{{ item }}"
+       yum:
+         name: httpd
          state: present
-       loop:
-         - ankit
-         - bhagyashree
-         - divya
-         - rupesh
-         - SAYALI
