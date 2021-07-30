@@ -4,6 +4,6 @@
   tasks:
     - name: start httpd service
       service:
-        name: cockpit
+        name: cockpit.socket
         state: started
         enabled: true
