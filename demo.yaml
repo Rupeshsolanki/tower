@@ -1,6 +1,6 @@
 ---
  - name: demo
-   hosts: localhost
+   hosts: all
    tasks:
      - name: user creation
        yum:
