@@ -1,0 +1,9 @@
+---
+- name: Try kr k dkh rahe h
+  hosts: all
+  tasks:
+    - name: start httpd service
+      service:
+        name: httpd
+        state: started
+        enabled: true
